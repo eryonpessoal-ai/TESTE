@@ -1,0 +1,909 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<!-- ============================================================
+     SEO BÁSICO — edite os campos abaixo com os dados reais
+     ============================================================ -->
+<title>Broken Style Barbearia | Fade, Barba e Freehand com Hora Marcada</title>
+<meta name="description" content="Broken Style: fade navalhado, freehand e barba completa com hora marcada. Sem fila, sem padrão. Agende agora pelo WhatsApp em 30 segundos.">
+<meta name="keywords" content="barbearia, fade, barbeiro, corte masculino, freehand cabelo, barba, agendar barbearia, barbearia perto de mim">
+<meta name="robots" content="index, follow">
+<meta name="author" content="Broken Style Barbearia">
+<link rel="canonical" href="https://www.brokenstyle.com.br/">
+
+<!-- Open Graph -->
+<meta property="og:type" content="website">
+<meta property="og:locale" content="pt_BR">
+<meta property="og:site_name" content="Broken Style Barbearia">
+<meta property="og:title" content="Broken Style Barbearia | Fade, Barba e Freehand com Hora Marcada">
+<meta property="og:description" content="Fade, freehand e barba com hora marcada. Sem fila, sem padrão. Agende pelo WhatsApp.">
+<meta property="og:url" content="https://www.brokenstyle.com.br/">
+<meta property="og:image" content="https://www.brokenstyle.com.br/og-image.jpg">
+
+<!-- Twitter Card -->
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Broken Style Barbearia">
+<meta name="twitter:description" content="Fade, freehand e barba com hora marcada. Agende pelo WhatsApp.">
+<meta name="twitter:image" content="https://www.brokenstyle.com.br/og-image.jpg">
+
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Crect width='100' height='100' rx='14' fill='%23141414'/%3E%3Cpath d='M20 70 L38 30 L50 55 L62 25 L80 70' stroke='%23F4C11F' stroke-width='7' fill='none' stroke-linejoin='round' stroke-linecap='round'/%3E%3C/svg%3E">
+
+<!-- Fontes -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Archivo+Black&family=Space+Grotesk:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;600&family=Permanent+Marker&display=swap" rel="stylesheet">
+
+<!-- ============================================================
+     DADOS ESTRUTURADOS (Schema.org) — essencial para SEO local
+     Edite nome, endereço, telefone, horários e avaliações reais.
+     ============================================================ -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "HairSalon",
+  "name": "Broken Style Barbearia",
+  "image": "https://www.brokenstyle.com.br/og-image.jpg",
+  "@id": "https://www.brokenstyle.com.br/",
+  "url": "https://www.brokenstyle.com.br/",
+  "telephone": "+5591985415854",
+  "priceRange": "R$20 - R$120",
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "Rua Exemplo, 456 - Centro",
+    "addressLocality": "Sua Cidade",
+    "addressRegion": "UF",
+    "postalCode": "00000-000",
+    "addressCountry": "BR"
+  },
+  "geo": {
+    "@type": "GeoCoordinates",
+    "latitude": -23.55052,
+    "longitude": -46.633308
+  },
+  "openingHoursSpecification": [
+    { "@type": "OpeningHoursSpecification", "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday"], "opens": "10:00", "closes": "21:00" },
+    { "@type": "OpeningHoursSpecification", "dayOfWeek": "Saturday", "opens": "09:00", "closes": "19:00" }
+  ],
+  "sameAs": [
+    "https://www.instagram.com/brokenstyle",
+    "https://www.tiktok.com/@brokenstyle"
+  ],
+  "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": "4.8",
+    "reviewCount": "267"
+  }
+}
+</script>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "Preciso agendar horário antes de ir?",
+      "acceptedAnswer": { "@type": "Answer", "text": "Sim. Trabalhamos só com hora marcada para não ter fila e você não perder tempo. O agendamento é pelo WhatsApp e leva menos de 1 minuto." }
+    },
+    {
+      "@type": "Question",
+      "name": "Vocês fazem desenho freehand no cabelo?",
+      "acceptedAnswer": { "@type": "Answer", "text": "Sim, é uma das nossas marcas registradas. Manda referência pelo WhatsApp que a gente já adianta o orçamento." }
+    },
+    {
+      "@type": "Question",
+      "name": "Quais formas de pagamento são aceitas?",
+      "acceptedAnswer": { "@type": "Answer", "text": "Pix, cartão de crédito, débito e dinheiro." }
+    },
+    {
+      "@type": "Question",
+      "name": "Consigo encaixe de última hora?",
+      "acceptedAnswer": { "@type": "Answer", "text": "Às vezes sim, depende da agenda do dia. Chama no WhatsApp e a gente confirma na hora." }
+    },
+    {
+      "@type": "Question",
+      "name": "Fazem corte infantil no mesmo estilo?",
+      "acceptedAnswer": { "@type": "Answer", "text": "Fazemos sim, com paciência e o mesmo capricho dos cortes adultos." }
+    }
+  ]
+}
+</script>
+
+<style>
+/* ==========================================================
+   TOKENS — identidade "Broken Style": asfalto + fita de risco
+   ========================================================== */
+:root{
+  --bg: #141414;
+  --bg-alt: #1B1B1B;
+  --bg-alt-2: #202020;
+  --concrete: #333333;
+  --bone: #F2EEE6;
+  --bone-muted: #A79E92;
+  --yellow: #F4C11F;
+  --red: #E2402F;
+  --whatsapp: #25D366;
+
+  --font-display: "Archivo Black", "Arial Black", sans-serif;
+  --font-body: "Space Grotesk", -apple-system, sans-serif;
+  --font-mono: "IBM Plex Mono", monospace;
+  --font-marker: "Permanent Marker", cursive;
+
+  --container: 1140px;
+}
+
+*,*::before,*::after{ box-sizing:border-box; }
+html{ scroll-behavior:smooth; }
+@media (prefers-reduced-motion: reduce){
+  html{ scroll-behavior:auto; }
+  *,*::before,*::after{ animation-duration:.01ms !important; animation-iteration-count:1 !important; transition-duration:.01ms !important; }
+}
+
+body{
+  margin:0; background:var(--bg); color:var(--bone);
+  font-family:var(--font-body); font-size:16px; line-height:1.6;
+  -webkit-font-smoothing:antialiased;
+}
+img,svg{ max-width:100%; display:block; }
+a{ color:inherit; }
+
+.container{ max-width:var(--container); margin:0 auto; padding:0 24px; }
+
+h1,h2,h3{ font-family:var(--font-display); color:var(--bone); margin:0 0 .5em; line-height:1.05; text-transform:uppercase; letter-spacing:-.01em; }
+
+.eyebrow{
+  font-family:var(--font-mono); text-transform:uppercase; letter-spacing:.14em; font-size:.72rem;
+  color:var(--yellow); display:inline-flex; align-items:center; gap:.6em; margin-bottom:1em;
+}
+.eyebrow::before{ content:""; width:22px; height:2px; background:var(--yellow); }
+
+.section{ padding:96px 0; position:relative; }
+.section-alt{ background:var(--bg-alt); }
+.lead{ color:var(--bone-muted); font-size:1.08rem; max-width:56ch; }
+
+.skip-link{
+  position:absolute; left:-999px; top:0; background:var(--yellow); color:var(--bg);
+  padding:12px 18px; z-index:999; font-family:var(--font-mono); font-size:.85rem; font-weight:600;
+}
+.skip-link:focus{ left:12px; top:12px; }
+:focus-visible{ outline:2px solid var(--yellow); outline-offset:3px; }
+
+/* ==========================================================
+   FITA DE RISCO (elemento de assinatura) — usada como faixa fina
+   ========================================================== */
+.hazard-strip{
+  height:8px; width:100%;
+  background: repeating-linear-gradient(45deg, var(--yellow) 0 16px, var(--bg) 16px 32px);
+}
+
+/* Divisor "rachadura" entre seções */
+.crack-divider{ display:block; width:100%; height:20px; }
+
+/* ==========================================================
+   HEADER
+   ========================================================== */
+header.site-header{
+  position:sticky; top:0; z-index:100;
+  background:rgba(20,20,20,.88); backdrop-filter:blur(8px);
+  border-bottom:1px solid rgba(244,193,31,.2);
+  transition: box-shadow .25s ease;
+}
+header.site-header.scrolled{ box-shadow:0 8px 24px rgba(0,0,0,.45); }
+
+.nav-wrap{ display:flex; align-items:center; justify-content:space-between; padding:14px 24px; max-width:var(--container); margin:0 auto; gap:20px; }
+.brand{ display:flex; align-items:center; gap:10px; font-family:var(--font-display); font-size:1.15rem; text-decoration:none; text-transform:uppercase; white-space:nowrap; letter-spacing:-.01em; }
+.brand .brand-crack{ color:var(--yellow); }
+
+nav.main-nav{ display:flex; align-items:center; gap:26px; }
+nav.main-nav a{ text-decoration:none; color:var(--bone-muted); font-size:.9rem; font-weight:500; position:relative; padding:4px 0; }
+nav.main-nav a:hover, nav.main-nav a.active{ color:var(--bone); }
+nav.main-nav a.active::after{ content:""; position:absolute; left:0; right:0; bottom:-4px; height:2px; background:var(--yellow); }
+
+.btn{
+  display:inline-flex; align-items:center; justify-content:center; gap:.55em;
+  font-family:var(--font-body); font-weight:700; font-size:.94rem;
+  padding:13px 22px; border-radius:2px; text-decoration:none;
+  border:2px solid transparent; cursor:pointer; line-height:1;
+  transition: transform .15s ease, box-shadow .15s ease, background .15s ease;
+  text-transform:uppercase; letter-spacing:.02em;
+}
+.btn:active{ transform:translateY(1px); }
+
+.btn-whatsapp{ background:var(--whatsapp); color:#08210F; border-color:var(--bg); }
+.btn-whatsapp:hover{ background:#2fe377; box-shadow:0 6px 18px rgba(37,211,102,.3); }
+
+.btn-outline{ background:transparent; color:var(--bone); border-color:rgba(242,238,230,.3); }
+.btn-outline:hover{ border-color:var(--yellow); color:var(--yellow); }
+
+.btn-block{ width:100%; }
+.nav-cta{ display:flex; }
+
+.menu-toggle{ display:none; background:none; border:none; color:var(--bone); cursor:pointer; padding:8px; }
+.menu-toggle svg{ width:26px; height:26px; }
+
+/* ==========================================================
+   HERO
+   ========================================================== */
+.hero{ position:relative; padding:84px 0 76px; overflow:hidden; background:var(--bg); }
+.hero::before{
+  content:""; position:absolute; inset:0;
+  background-image:
+    linear-gradient(rgba(242,238,230,.025) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(242,238,230,.025) 1px, transparent 1px);
+  background-size: 42px 42px;
+  pointer-events:none;
+}
+.hero-grid{ display:grid; grid-template-columns:1.15fr .85fr; gap:56px; align-items:center; position:relative; }
+
+.hero h1{ font-size:clamp(2.2rem,4.6vw,3.5rem); margin-bottom:.3em; }
+.crack-word{ position:relative; display:inline-block; color:var(--yellow); }
+.crack-word::after{
+  content:"QUEBRA"; position:absolute; left:2px; top:2px; z-index:-1;
+  color:var(--red); opacity:.65;
+}
+
+.hero-actions{ display:flex; gap:14px; margin-top:28px; flex-wrap:wrap; }
+
+.trust-row{ display:flex; align-items:center; gap:16px; margin-top:32px; flex-wrap:wrap; font-family:var(--font-mono); font-size:.8rem; color:var(--bone-muted); }
+.stars{ color:var(--yellow); letter-spacing:2px; font-size:1rem; }
+
+/* Painel lateral do hero (substitui foto) */
+.hero-poster{ background:var(--bg-alt); border:2px solid var(--concrete); position:relative; padding:28px; }
+.hero-poster::before{
+  content:""; position:absolute; top:-8px; left:24px; right:24px; height:8px;
+  background: repeating-linear-gradient(45deg, var(--yellow) 0 12px, var(--bg) 12px 24px);
+}
+.poster-title{ font-family:var(--font-mono); text-transform:uppercase; font-size:.72rem; letter-spacing:.14em; color:var(--yellow); margin-bottom:18px; }
+.poster-row{ display:flex; justify-content:space-between; align-items:baseline; padding:12px 0; border-bottom:1px dashed rgba(242,238,230,.15); }
+.poster-row:last-child{ border-bottom:none; }
+.poster-row span:first-child{ color:var(--bone); font-weight:500; }
+.poster-row span:last-child{ font-family:var(--font-mono); color:var(--yellow); }
+
+/* ==========================================================
+   STATS BAR
+   ========================================================== */
+.stats-bar{ background:var(--bg-alt-2); border-top:1px solid rgba(244,193,31,.15); border-bottom:1px solid rgba(244,193,31,.15); padding:34px 0; }
+.stats-grid{ display:grid; grid-template-columns:repeat(4,1fr); gap:24px; text-align:center; }
+.stat-num{ font-family:var(--font-display); font-size:1.8rem; color:var(--yellow); }
+.stat-label{ font-family:var(--font-mono); font-size:.72rem; color:var(--bone-muted); text-transform:uppercase; letter-spacing:.08em; margin-top:6px; }
+
+/* ==========================================================
+   SERVIÇOS — cartões estilo "etiqueta de spray"
+   ========================================================== */
+.services-grid{ display:grid; grid-template-columns:repeat(3,1fr); gap:22px; margin-top:48px; }
+.ticket{
+  background:var(--bg-alt); border:2px solid var(--concrete); padding:26px 24px 22px;
+  position:relative; display:flex; flex-direction:column; gap:14px;
+  transition: transform .2s ease, border-color .2s ease;
+}
+.ticket:hover{ transform:translateY(-4px); border-color:var(--yellow); }
+.ticket-top{ display:flex; justify-content:space-between; align-items:flex-start; gap:12px; }
+.ticket-name{ font-family:var(--font-display); font-size:1.02rem; text-transform:uppercase; }
+.ticket-price{ font-family:var(--font-mono); color:var(--yellow); font-size:1.05rem; white-space:nowrap; }
+.ticket-price .old{ color:var(--bone-muted); font-size:.82rem; text-decoration:line-through; margin-right:6px; }
+.ticket-desc{ color:var(--bone-muted); font-size:.92rem; flex-grow:1; }
+.ticket-badge{
+  position:absolute; top:-12px; left:20px; background:var(--red); color:var(--bone);
+  font-family:var(--font-marker); font-size:.85rem; padding:2px 12px; transform:rotate(-3deg);
+}
+.ticket .btn{ margin-top:4px; padding:10px 16px; font-size:.82rem; }
+
+/* ==========================================================
+   DIFERENCIAIS
+   ========================================================== */
+.diff-grid{ display:grid; grid-template-columns:repeat(4,1fr); gap:26px; margin-top:48px; }
+.diff-item{ display:flex; flex-direction:column; gap:14px; }
+.diff-icon{ width:46px; height:46px; border:2px solid var(--yellow); display:flex; align-items:center; justify-content:center; color:var(--yellow); }
+.diff-icon svg{ width:22px; height:22px; }
+.diff-item h3{ font-size:.95rem; margin-bottom:4px; }
+.diff-item p{ color:var(--bone-muted); font-size:.92rem; margin:0; text-transform:none; }
+
+/* ==========================================================
+   AMBIENTE
+   ========================================================== */
+.ambiente-grid{ display:grid; grid-template-columns:repeat(4,1fr); gap:18px; margin-top:48px; }
+.ambiente-card{
+  aspect-ratio:4/5; border:2px solid var(--concrete); display:flex; flex-direction:column;
+  align-items:center; justify-content:center; gap:14px; text-align:center; padding:20px;
+  background:linear-gradient(160deg, var(--bg-alt), var(--bg-alt-2));
+}
+.ambiente-card svg{ width:36px; height:36px; color:var(--yellow); }
+.ambiente-card span{ font-family:var(--font-mono); font-size:.76rem; color:var(--bone-muted); text-transform:uppercase; letter-spacing:.06em; }
+
+/* ==========================================================
+   DEPOIMENTOS
+   ========================================================== */
+.testi-grid{ display:grid; grid-template-columns:repeat(3,1fr); gap:22px; margin-top:48px; }
+.testi-card{ background:var(--bg-alt); border:2px solid var(--concrete); padding:26px; display:flex; flex-direction:column; gap:14px; }
+.testi-stars{ color:var(--yellow); letter-spacing:2px; }
+.testi-quote{ color:var(--bone); font-size:.96rem; margin:0; }
+.testi-name{ font-family:var(--font-mono); font-size:.76rem; color:var(--bone-muted); text-transform:uppercase; letter-spacing:.06em; }
+
+/* ==========================================================
+   FAQ
+   ========================================================== */
+.faq-list{ margin-top:44px; max-width:760px; }
+.faq-item{ border-bottom:1px solid var(--concrete); }
+.faq-q{
+  width:100%; background:none; border:none; text-align:left; cursor:pointer;
+  padding:20px 0; display:flex; justify-content:space-between; align-items:center; gap:16px;
+  color:var(--bone); font-family:var(--font-body); font-size:1rem; font-weight:600;
+}
+.faq-q .plus{ font-family:var(--font-mono); color:var(--yellow); font-size:1.2rem; transition:transform .2s ease; flex-shrink:0; }
+.faq-item.open .plus{ transform:rotate(45deg); }
+.faq-a{ max-height:0; overflow:hidden; transition:max-height .25s ease; color:var(--bone-muted); font-size:.95rem; }
+.faq-a p{ margin:0 0 18px; max-width:62ch; }
+
+/* ==========================================================
+   CTA FINAL
+   ========================================================== */
+.cta-final{ background:var(--bg-alt-2); border-top:1px solid rgba(244,193,31,.2); text-align:center; }
+.cta-final h2{ font-size:clamp(1.6rem,3.4vw,2.3rem); }
+.cta-final .lead{ margin:0 auto 30px; }
+.cta-final .btn{ font-size:1rem; padding:16px 30px; }
+
+/* ==========================================================
+   LOCALIZAÇÃO
+   ========================================================== */
+.location-grid{ display:grid; grid-template-columns:1fr 1fr; gap:40px; margin-top:44px; align-items:start; }
+.hours-table{ width:100%; border-collapse:collapse; margin-top:18px; font-size:.94rem; }
+.hours-table td{ padding:9px 0; border-bottom:1px dashed rgba(242,238,230,.14); }
+.hours-table td:last-child{ text-align:right; font-family:var(--font-mono); color:var(--yellow); }
+.map-embed{ border:2px solid var(--concrete); overflow:hidden; filter:grayscale(.5) contrast(1.05); }
+.map-embed iframe{ width:100%; height:320px; border:0; display:block; }
+.addr-line{ display:flex; gap:12px; margin-top:18px; align-items:flex-start; color:var(--bone-muted); font-size:.94rem; }
+.addr-line svg{ width:18px; height:18px; color:var(--yellow); flex-shrink:0; margin-top:2px; }
+
+/* ==========================================================
+   FOOTER
+   ========================================================== */
+footer.site-footer{ background:var(--bg-alt-2); border-top:1px solid rgba(244,193,31,.2); padding:56px 0 26px; }
+.footer-grid{ display:grid; grid-template-columns:1.3fr 1fr 1fr; gap:40px; }
+.footer-brand{ display:flex; align-items:center; gap:10px; font-family:var(--font-display); font-size:1.1rem; margin-bottom:12px; text-transform:uppercase; }
+.footer-brand span{ color:var(--yellow); }
+.footer-col h4{ font-family:var(--font-mono); text-transform:uppercase; font-size:.72rem; letter-spacing:.1em; color:var(--yellow); margin:0 0 16px; }
+.footer-col ul{ list-style:none; margin:0; padding:0; display:flex; flex-direction:column; gap:10px; }
+.footer-col a{ text-decoration:none; color:var(--bone-muted); font-size:.92rem; }
+.footer-col a:hover{ color:var(--bone); }
+.footer-bottom{
+  margin-top:48px; padding-top:22px; border-top:1px solid rgba(242,238,230,.08);
+  display:flex; justify-content:space-between; flex-wrap:wrap; gap:12px;
+  font-size:.78rem; color:var(--bone-muted); font-family:var(--font-mono);
+}
+
+/* ==========================================================
+   WHATSAPP FLUTUANTE
+   ========================================================== */
+.wa-float{
+  position:fixed; right:20px; bottom:20px; z-index:200; display:flex; align-items:center; gap:10px;
+  background:var(--whatsapp); color:#08210F; padding:14px 18px; border-radius:50px; border:2px solid var(--yellow);
+  text-decoration:none; font-weight:700; font-size:.88rem; text-transform:uppercase;
+  box-shadow:0 10px 26px rgba(0,0,0,.4);
+  opacity:0; transform:translateY(16px) scale(.9); pointer-events:none;
+  transition: opacity .25s ease, transform .25s ease;
+}
+.wa-float.visible{ opacity:1; transform:translateY(0) scale(1); pointer-events:auto; }
+.wa-float svg{ width:22px; height:22px; }
+.wa-float .wa-text{ display:none; }
+@media(min-width:640px){ .wa-float .wa-text{ display:inline; } }
+
+/* reveal on scroll */
+.reveal{ opacity:0; transform:translateY(18px); transition: opacity .5s ease, transform .5s ease; }
+.reveal.in{ opacity:1; transform:translateY(0); }
+@media (prefers-reduced-motion: reduce){ .reveal{ opacity:1; transform:none; } }
+
+/* ==========================================================
+   RESPONSIVO
+   ========================================================== */
+@media (max-width:980px){
+  .hero-grid{ grid-template-columns:1fr; }
+  .stats-grid{ grid-template-columns:repeat(2,1fr); gap:30px; }
+  .services-grid{ grid-template-columns:repeat(2,1fr); }
+  .diff-grid{ grid-template-columns:repeat(2,1fr); }
+  .ambiente-grid{ grid-template-columns:repeat(2,1fr); }
+  .testi-grid{ grid-template-columns:1fr; }
+  .location-grid{ grid-template-columns:1fr; }
+  .footer-grid{ grid-template-columns:1fr 1fr; }
+}
+@media (max-width:720px){
+  nav.main-nav{
+    position:fixed; inset:64px 0 0 0; background:var(--bg); flex-direction:column; align-items:flex-start;
+    padding:30px 24px; gap:22px; transform:translateX(100%); transition:transform .25s ease;
+    border-top:1px solid rgba(244,193,31,.2);
+  }
+  nav.main-nav.open{ transform:translateX(0); }
+  nav.main-nav a{ font-size:1.05rem; }
+  .nav-cta .btn-outline{ display:none; }
+  .menu-toggle{ display:inline-flex; }
+  .section{ padding:64px 0; }
+  .services-grid, .diff-grid, .ambiente-grid{ grid-template-columns:1fr; }
+  .footer-grid{ grid-template-columns:1fr; gap:30px; }
+  .hero-actions .btn{ width:100%; }
+  .stats-grid{ grid-template-columns:repeat(2,1fr); }
+}
+</style>
+</head>
+<body>
+
+<a href="#conteudo" class="skip-link">Pular para o conteúdo</a>
+<div class="hazard-strip" aria-hidden="true"></div>
+
+<!-- ============================================================
+     HEADER / NAV
+     ============================================================ -->
+<header class="site-header" id="siteHeader">
+  <div class="nav-wrap">
+    <a href="#topo" class="brand">Broken<span class="brand-crack">Style</span></a>
+
+    <nav class="main-nav" id="mainNav" aria-label="Navegação principal">
+      <a href="#servicos">Cortes</a>
+      <a href="#diferenciais">Diferenciais</a>
+      <a href="#depoimentos">Depoimentos</a>
+      <a href="#faq">Dúvidas</a>
+      <a href="#localizacao">Localização</a>
+    </nav>
+
+    <div class="nav-cta">
+      <a href="#servicos" class="btn btn-outline" style="margin-right:10px;">Ver cortes</a>
+      <a href="#" class="btn btn-whatsapp js-wa" data-service="Visita geral">
+        <svg viewBox="0 0 24 24" width="18" height="18" fill="currentColor"><path d="M12 2C6.5 2 2 6.5 2 12c0 1.9.5 3.7 1.5 5.3L2 22l4.8-1.5C8.3 21.5 10.1 22 12 22c5.5 0 10-4.5 10-10S17.5 2 12 2zm0 18c-1.7 0-3.3-.5-4.7-1.3l-.3-.2-2.9.9.9-2.8-.2-.3C4 15 3.5 13.5 3.5 12 3.5 7.3 7.3 3.5 12 3.5S20.5 7.3 20.5 12 16.7 20 12 20zm5-6.4c-.3-.1-1.6-.8-1.8-.9-.2-.1-.4-.1-.6.1s-.7.9-.9 1.1c-.2.2-.3.2-.6.1-.3-.1-1.2-.4-2.3-1.4-.9-.8-1.4-1.7-1.6-2-.2-.3 0-.5.1-.6.1-.1.3-.3.4-.5.1-.1.2-.3.3-.5.1-.2 0-.4 0-.5C10 8.4 9.4 7 9.2 6.5c-.2-.5-.4-.4-.6-.4h-.5c-.2 0-.5.1-.7.3-.2.2-.9.9-.9 2.2s1 2.6 1.1 2.7c.1.2 2 3 4.8 4.2.7.3 1.2.5 1.6.6.7.2 1.3.2 1.8.1.5-.1 1.6-.7 1.9-1.3.2-.6.2-1.1.2-1.2-.1-.1-.3-.2-.6-.3z"/></svg>
+        Agendar
+      </a>
+    </div>
+
+    <button class="menu-toggle" id="menuToggle" aria-label="Abrir menu" aria-expanded="false" aria-controls="mainNav">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 6h16M4 12h16M4 18h16"/></svg>
+    </button>
+  </div>
+</header>
+
+<main id="conteudo">
+
+  <!-- ============================================================
+       HERO
+       ============================================================ -->
+  <section class="hero" id="topo">
+    <div class="container hero-grid">
+      <div>
+        <span class="eyebrow">Barbearia sem hora vaga</span>
+        <h1>A gente <span class="crack-word">QUEBRA</span> o padrão do seu corte.</h1>
+        <p class="lead">Fade navalhado, freehand e barba com atitude de rua. Agenda pelo WhatsApp e chega direto pra cadeira — sem fila, sem enrolação.</p>
+
+        <div class="hero-actions">
+          <a href="#" class="btn btn-whatsapp js-wa" data-service="Agendamento geral">
+            <svg viewBox="0 0 24 24" width="20" height="20" fill="currentColor"><path d="M12 2C6.5 2 2 6.5 2 12c0 1.9.5 3.7 1.5 5.3L2 22l4.8-1.5C8.3 21.5 10.1 22 12 22c5.5 0 10-4.5 10-10S17.5 2 12 2zm0 18c-1.7 0-3.3-.5-4.7-1.3l-.3-.2-2.9.9.9-2.8-.2-.3C4 15 3.5 13.5 3.5 12 3.5 7.3 7.3 3.5 12 3.5S20.5 7.3 20.5 12 16.7 20 12 20zm5-6.4c-.3-.1-1.6-.8-1.8-.9-.2-.1-.4-.1-.6.1s-.7.9-.9 1.1c-.2.2-.3.2-.6.1-.3-.1-1.2-.4-2.3-1.4-.9-.8-1.4-1.7-1.6-2-.2-.3 0-.5.1-.6.1-.1.3-.3.4-.5.1-.1.2-.3.3-.5.1-.2 0-.4 0-.5C10 8.4 9.4 7 9.2 6.5c-.2-.5-.4-.4-.6-.4h-.5c-.2 0-.5.1-.7.3-.2.2-.9.9-.9 2.2s1 2.6 1.1 2.7c.1.2 2 3 4.8 4.2.7.3 1.2.5 1.6.6.7.2 1.3.2 1.8.1.5-.1 1.6-.7 1.9-1.3.2-.6.2-1.1.2-1.2-.1-.1-.3-.2-.6-.3z"/></svg>
+            Agendar pelo WhatsApp
+          </a>
+          <a href="#servicos" class="btn btn-outline">Ver cortes e preços</a>
+        </div>
+
+        <div class="trust-row">
+          <span class="stars">★★★★★</span>
+          <span>4.8 no Google · 267 avaliações</span>
+          <span>·</span>
+          <span>9 anos quebrando padrão</span>
+        </div>
+      </div>
+
+      <div class="hero-poster reveal">
+        <div class="poster-title">Vagas de hoje</div>
+        <div class="poster-row"><span>10:00 – 13:00</span><span>Aberto</span></div>
+        <div class="poster-row"><span>14:00 – 17:00</span><span>Quase lotado</span></div>
+        <div class="poster-row"><span>17:00 – 21:00</span><span>Aberto</span></div>
+        <a href="#" class="btn btn-whatsapp btn-block js-wa" data-service="Vaga de hoje" style="margin-top:20px;">Garantir minha vaga</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- STATS BAR -->
+  <div class="stats-bar">
+    <div class="container stats-grid">
+      <div class="reveal"><div class="stat-num">9</div><div class="stat-label">Anos de rua</div></div>
+      <div class="reveal"><div class="stat-num">6.200+</div><div class="stat-label">Cortes feitos</div></div>
+      <div class="reveal"><div class="stat-num">4.8★</div><div class="stat-label">Nota no Google</div></div>
+      <div class="reveal"><div class="stat-num">0</div><div class="stat-label">Padrão pra seguir</div></div>
+    </div>
+  </div>
+
+  <!-- ============================================================
+       SERVIÇOS
+       ============================================================ -->
+  <section class="section" id="servicos">
+    <div class="container">
+      <span class="eyebrow">Tabela de preços</span>
+      <h2>Corte é estilo. Estilo é seu.</h2>
+      <p class="lead">Escolhe o corte e agenda direto pelo WhatsApp — a mensagem já sai pronta com o serviço escolhido.</p>
+
+      <div class="services-grid">
+        <div class="ticket reveal">
+          <div class="ticket-top"><span class="ticket-name">Fade Navalhado</span><span class="ticket-price">R$ 50</span></div>
+          <p class="ticket-desc">Degradê preciso na navalha, acabamento sem falha.</p>
+          <a href="#" class="btn btn-whatsapp js-wa" data-service="Fade Navalhado">Agendar fade</a>
+        </div>
+
+        <div class="ticket reveal">
+          <div class="ticket-top"><span class="ticket-name">Corte + Freehand</span><span class="ticket-price">R$ 65</span></div>
+          <p class="ticket-desc">Riscos e desenhos autorais direto na navalha.</p>
+          <a href="#" class="btn btn-whatsapp js-wa" data-service="Corte + Freehand">Agendar freehand</a>
+        </div>
+
+        <div class="ticket reveal">
+          <span class="ticket-badge">bombou</span>
+          <div class="ticket-top"><span class="ticket-name">Combo Fade + Barba</span><span class="ticket-price"><span class="old">R$90</span>R$ 80</span></div>
+          <p class="ticket-desc">O pacote completo: cabelo e barba, com desconto.</p>
+          <a href="#" class="btn btn-whatsapp js-wa" data-service="Combo Fade + Barba">Agendar combo</a>
+        </div>
+
+        <div class="ticket reveal">
+          <div class="ticket-top"><span class="ticket-name">Barba Completa</span><span class="ticket-price">R$ 40</span></div>
+          <p class="ticket-desc">Toalha quente, navalha e hidratação.</p>
+          <a href="#" class="btn btn-whatsapp js-wa" data-service="Barba Completa">Agendar barba</a>
+        </div>
+
+        <div class="ticket reveal">
+          <div class="ticket-top"><span class="ticket-name">Platinado / Descoloração</span><span class="ticket-price">R$ 120</span></div>
+          <p class="ticket-desc">Visual ousado, do jeito que só aqui tem.</p>
+          <a href="#" class="btn btn-whatsapp js-wa" data-service="Platinado / Descoloração">Agendar platinado</a>
+        </div>
+
+        <div class="ticket reveal">
+          <div class="ticket-top"><span class="ticket-name">Corte Infantil Street</span><span class="ticket-price">R$ 38</span></div>
+          <p class="ticket-desc">Estilo desde cedo, com paciência e capricho.</p>
+          <a href="#" class="btn btn-whatsapp js-wa" data-service="Corte Infantil Street">Agendar corte infantil</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================================================
+       DIFERENCIAIS
+       ============================================================ -->
+  <section class="section section-alt" id="diferenciais">
+    <div class="container">
+      <span class="eyebrow">Por que Broken Style</span>
+      <h2>Técnica de salão, atitude de rua</h2>
+
+      <div class="diff-grid">
+        <div class="diff-item reveal">
+          <div class="diff-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 3"/></svg></div>
+          <h3>Hora marcada, sem fila</h3>
+          <p>Agenda, chega e senta. Sem perder a tarde esperando.</p>
+        </div>
+        <div class="diff-item reveal">
+          <div class="diff-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4l16 16M20 4L4 20"/></svg></div>
+          <h3>Freehand na navalha</h3>
+          <p>Desenhos e riscos personalizados, sem copiar padrão de ninguém.</p>
+        </div>
+        <div class="diff-item reveal">
+          <div class="diff-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 21V8a4 4 0 014-4h8a4 4 0 014 4v13"/><path d="M4 21h16"/></svg></div>
+          <h3>Produtos premium</h3>
+          <p>Linhas profissionais para pele e barba, sem irritação.</p>
+        </div>
+        <div class="diff-item reveal">
+          <div class="diff-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 18V5l12-2v13"/><circle cx="6" cy="18" r="3"/><circle cx="18" cy="16" r="3"/></svg></div>
+          <h3>Som e ambiente na medida</h3>
+          <p>Playlist boa, clima sem julgamento — o estilo é seu.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================================================
+       AMBIENTE
+       ============================================================ -->
+  <section class="section" id="ambiente">
+    <div class="container">
+      <span class="eyebrow">O espaço</span>
+      <h2>Ambiente que combina com você</h2>
+
+      <div class="ambiente-grid">
+        <div class="ambiente-card reveal">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M6 9V5a2 2 0 012-2h8a2 2 0 012 2v4"/><rect x="4" y="9" width="16" height="7" rx="1"/><path d="M6 16v3M18 16v3"/></svg>
+          <span>Cadeiras urbanas</span>
+        </div>
+        <div class="ambiente-card reveal">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M4 4l16 16M20 4L4 20"/></svg>
+          <span>Navalha afiada</span>
+        </div>
+        <div class="ambiente-card reveal">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><rect x="5" y="3" width="14" height="18" rx="2"/><path d="M9 21v-2a3 3 0 016 0v2"/></svg>
+          <span>Espelho grande</span>
+        </div>
+        <div class="ambiente-card reveal">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M9 18V5l12-2v13"/><circle cx="6" cy="18" r="3"/><circle cx="18" cy="16" r="3"/></svg>
+          <span>Som ambiente</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================================================
+       DEPOIMENTOS
+       ============================================================ -->
+  <section class="section section-alt" id="depoimentos">
+    <div class="container">
+      <span class="eyebrow">Quem já passou pela cadeira</span>
+      <h2>O que a galera fala</h2>
+
+      <div class="testi-grid">
+        <div class="testi-card reveal">
+          <div class="testi-stars">★★★★★</div>
+          <p class="testi-quote">"Melhor fade da região, sem dúvida. Marquei pelo WhatsApp e nem esperei."</p>
+          <div class="testi-name">Bruno A. — cliente há 2 anos</div>
+        </div>
+        <div class="testi-card reveal">
+          <div class="testi-stars">★★★★★</div>
+          <p class="testi-quote">"O freehand ficou exatamente como eu queria. Time top de verdade."</p>
+          <div class="testi-name">Kaique R. — cliente fiel</div>
+        </div>
+        <div class="testi-card reveal">
+          <div class="testi-stars">★★★★★</div>
+          <p class="testi-quote">"Ambiente sem clima chato, atendimento rápido e resultado sempre na régua."</p>
+          <div class="testi-name">Thiago M. — cliente novo</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================================================
+       FAQ
+       ============================================================ -->
+  <section class="section" id="faq">
+    <div class="container">
+      <span class="eyebrow">Dúvidas frequentes</span>
+      <h2>Antes de agendar</h2>
+
+      <div class="faq-list">
+        <div class="faq-item">
+          <button class="faq-q" aria-expanded="false">Preciso agendar horário antes de ir? <span class="plus">+</span></button>
+          <div class="faq-a"><p>Sim. Trabalhamos só com hora marcada para não ter fila e você não perder tempo. O agendamento é pelo WhatsApp e leva menos de 1 minuto.</p></div>
+        </div>
+        <div class="faq-item">
+          <button class="faq-q" aria-expanded="false">Vocês fazem desenho freehand no cabelo? <span class="plus">+</span></button>
+          <div class="faq-a"><p>Sim, é uma das nossas marcas registradas. Manda referência pelo WhatsApp que a gente já adianta o orçamento.</p></div>
+        </div>
+        <div class="faq-item">
+          <button class="faq-q" aria-expanded="false">Quais formas de pagamento são aceitas? <span class="plus">+</span></button>
+          <div class="faq-a"><p>Pix, cartão de crédito, débito e dinheiro.</p></div>
+        </div>
+        <div class="faq-item">
+          <button class="faq-q" aria-expanded="false">Consigo encaixe de última hora? <span class="plus">+</span></button>
+          <div class="faq-a"><p>Às vezes sim, depende da agenda do dia. Chama no WhatsApp e a gente confirma na hora.</p></div>
+        </div>
+        <div class="faq-item">
+          <button class="faq-q" aria-expanded="false">Fazem corte infantil no mesmo estilo? <span class="plus">+</span></button>
+          <div class="faq-a"><p>Fazemos sim, com paciência e o mesmo capricho dos cortes adultos.</p></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================================================
+       CTA FINAL
+       ============================================================ -->
+  <section class="section cta-final">
+    <div class="container">
+      <span class="eyebrow" style="justify-content:center;">Não deixa pra depois</span>
+      <h2>Cansou de barbearia com padrão engessado?</h2>
+      <p class="lead">Fala agora no WhatsApp e garante sua vaga — a resposta é na hora.</p>
+      <a href="#" class="btn btn-whatsapp js-wa" data-service="CTA final">
+        <svg viewBox="0 0 24 24" width="20" height="20" fill="currentColor"><path d="M12 2C6.5 2 2 6.5 2 12c0 1.9.5 3.7 1.5 5.3L2 22l4.8-1.5C8.3 21.5 10.1 22 12 22c5.5 0 10-4.5 10-10S17.5 2 12 2zm0 18c-1.7 0-3.3-.5-4.7-1.3l-.3-.2-2.9.9.9-2.8-.2-.3C4 15 3.5 13.5 3.5 12 3.5 7.3 7.3 3.5 12 3.5S20.5 7.3 20.5 12 16.7 20 12 20zm5-6.4c-.3-.1-1.6-.8-1.8-.9-.2-.1-.4-.1-.6.1s-.7.9-.9 1.1c-.2.2-.3.2-.6.1-.3-.1-1.2-.4-2.3-1.4-.9-.8-1.4-1.7-1.6-2-.2-.3 0-.5.1-.6.1-.1.3-.3.4-.5.1-.1.2-.3.3-.5.1-.2 0-.4 0-.5C10 8.4 9.4 7 9.2 6.5c-.2-.5-.4-.4-.6-.4h-.5c-.2 0-.5.1-.7.3-.2.2-.9.9-.9 2.2s1 2.6 1.1 2.7c.1.2 2 3 4.8 4.2.7.3 1.2.5 1.6.6.7.2 1.3.2 1.8.1.5-.1 1.6-.7 1.9-1.3.2-.6.2-1.1.2-1.2-.1-.1-.3-.2-.6-.3z"/></svg>
+        Chamar no WhatsApp agora
+      </a>
+    </div>
+  </section>
+
+  <!-- ============================================================
+       LOCALIZAÇÃO
+       ============================================================ -->
+  <section class="section section-alt" id="localizacao">
+    <div class="container">
+      <span class="eyebrow">Onde estamos</span>
+      <h2>Vem quebrar o padrão com a gente</h2>
+
+      <div class="location-grid">
+        <div class="reveal">
+          <div class="addr-line">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 21s-7-6.2-7-11a7 7 0 0114 0c0 4.8-7 11-7 11z"/><circle cx="12" cy="10" r="2.5"/></svg>
+            <span>Rua Exemplo, 456 – Centro, Sua Cidade - UF</span>
+          </div>
+          <div class="addr-line">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 3"/></svg>
+            <span>Seg a Sex: 10h–21h · Sáb: 09h–19h · Dom: fechado</span>
+          </div>
+          <div class="addr-line">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.9v3a2 2 0 01-2.2 2 19.8 19.8 0 01-8.6-3 19.5 19.5 0 01-6-6 19.8 19.8 0 01-3-8.7A2 2 0 014.1 2h3a2 2 0 012 1.7c.1.9.3 1.8.6 2.7a2 2 0 01-.5 2.1L8 9.7a16 16 0 006 6l1.2-1.2a2 2 0 012.1-.5c.9.3 1.8.5 2.7.6a2 2 0 011.7 2z"/></svg>
+            <span>(91) 98541-5854</span>
+          </div>
+
+          <table class="hours-table">
+            <tr><td>Segunda a sexta</td><td>10:00 – 21:00</td></tr>
+            <tr><td>Sábado</td><td>09:00 – 19:00</td></tr>
+            <tr><td>Domingo</td><td>Fechado</td></tr>
+          </table>
+
+          <a href="#" class="btn btn-whatsapp js-wa" data-service="Visita à barbearia" style="margin-top:26px;">Agendar minha visita</a>
+        </div>
+
+        <div class="map-embed reveal">
+          <!-- Troque o endereço na URL do mapa abaixo pelo endereço real -->
+          <iframe
+            src="https://maps.google.com/maps?q=Rua%20Exemplo%20456%2C%20Sua%20Cidade&t=&z=15&ie=UTF8&iwloc=&output=embed"
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+            title="Mapa de localização da Broken Style Barbearia">
+          </iframe>
+        </div>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<!-- ============================================================
+     FOOTER
+     ============================================================ -->
+<footer class="site-footer">
+  <div class="container footer-grid">
+    <div>
+      <div class="footer-brand">Broken<span>Style</span></div>
+      <p style="color:var(--bone-muted); font-size:.92rem; max-width:32ch;">Barbearia urbana com técnica de salão. Fade, freehand e barba do jeito que só aqui tem.</p>
+    </div>
+    <div class="footer-col">
+      <h4>Navegação</h4>
+      <ul>
+        <li><a href="#servicos">Cortes</a></li>
+        <li><a href="#diferenciais">Diferenciais</a></li>
+        <li><a href="#depoimentos">Depoimentos</a></li>
+        <li><a href="#faq">Dúvidas</a></li>
+        <li><a href="#localizacao">Localização</a></li>
+      </ul>
+    </div>
+    <div class="footer-col">
+      <h4>Contato</h4>
+      <ul>
+        <li><a href="#" class="js-wa" data-service="Contato via rodapé">WhatsApp</a></li>
+        <li><a href="https://www.instagram.com/brokenstyle" target="_blank" rel="noopener">Instagram</a></li>
+        <li><a href="https://www.tiktok.com/@brokenstyle" target="_blank" rel="noopener">TikTok</a></li>
+      </ul>
+    </div>
+  </div>
+  <div class="container footer-bottom">
+    <span>© <span id="year"></span> Broken Style Barbearia. Todos os direitos reservados.</span>
+    <span>Rua Exemplo, 456 – Sua Cidade - UF</span>
+  </div>
+</footer>
+
+<!-- WHATSAPP FLUTUANTE -->
+<a href="#" class="wa-float js-wa" id="waFloat" data-service="Botão flutuante" aria-label="Agendar pelo WhatsApp">
+  <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2C6.5 2 2 6.5 2 12c0 1.9.5 3.7 1.5 5.3L2 22l4.8-1.5C8.3 21.5 10.1 22 12 22c5.5 0 10-4.5 10-10S17.5 2 12 2zm0 18c-1.7 0-3.3-.5-4.7-1.3l-.3-.2-2.9.9.9-2.8-.2-.3C4 15 3.5 13.5 3.5 12 3.5 7.3 7.3 3.5 12 3.5S20.5 7.3 20.5 12 16.7 20 12 20zm5-6.4c-.3-.1-1.6-.8-1.8-.9-.2-.1-.4-.1-.6.1s-.7.9-.9 1.1c-.2.2-.3.2-.6.1-.3-.1-1.2-.4-2.3-1.4-.9-.8-1.4-1.7-1.6-2-.2-.3 0-.5.1-.6.1-.1.3-.3.4-.5.1-.1.2-.3.3-.5.1-.2 0-.4 0-.5C10 8.4 9.4 7 9.2 6.5c-.2-.5-.4-.4-.6-.4h-.5c-.2 0-.5.1-.7.3-.2.2-.9.9-.9 2.2s1 2.6 1.1 2.7c.1.2 2 3 4.8 4.2.7.3 1.2.5 1.6.6.7.2 1.3.2 1.8.1.5-.1 1.6-.7 1.9-1.3.2-.6.2-1.1.2-1.2-.1-.1-.3-.2-.6-.3z"/></svg>
+  <span class="wa-text">Agendar</span>
+</a>
+
+<script>
+(function(){
+  "use strict";
+
+  /* ==========================================================
+     CONFIGURAÇÃO — edite aqui o número e a mensagem padrão
+     ========================================================== */
+  const WHATSAPP_NUMBER = "5591985415854"; // formato: DDI + DDD + número, só dígitos
+  const MESSAGE_TEMPLATE = (service) =>
+    `E aí! Vim pelo site da Broken Style e quero agendar: ${service}. Tem horário disponível?`;
+
+  function buildWaLink(service){
+    const text = encodeURIComponent(MESSAGE_TEMPLATE(service || "um horário"));
+    return `https://wa.me/${WHATSAPP_NUMBER}?text=${text}`;
+  }
+
+  document.querySelectorAll(".js-wa").forEach(function(el){
+    const service = el.getAttribute("data-service") || "Agendamento";
+    el.setAttribute("href", buildWaLink(service));
+    el.setAttribute("target", "_blank");
+    el.setAttribute("rel", "noopener");
+
+    // Espaço para integrar analytics (GA4 / Meta Pixel) de clique em CTA
+    el.addEventListener("click", function(){
+      if (typeof gtag === "function") {
+        gtag("event", "click_whatsapp", { service_name: service });
+      }
+      // if (typeof fbq === "function") { fbq("track", "Contact", { service_name: service }); }
+    });
+  });
+
+  /* ==========================================================
+     MENU MOBILE
+     ========================================================== */
+  const menuToggle = document.getElementById("menuToggle");
+  const mainNav = document.getElementById("mainNav");
+  if (menuToggle && mainNav){
+    menuToggle.addEventListener("click", function(){
+      const isOpen = mainNav.classList.toggle("open");
+      menuToggle.setAttribute("aria-expanded", isOpen ? "true" : "false");
+    });
+    mainNav.querySelectorAll("a").forEach(function(a){
+      a.addEventListener("click", function(){
+        mainNav.classList.remove("open");
+        menuToggle.setAttribute("aria-expanded", "false");
+      });
+    });
+  }
+
+  /* ==========================================================
+     HEADER COM SOMBRA AO ROLAR + NAV ATIVA
+     ========================================================== */
+  const header = document.getElementById("siteHeader");
+  const sections = document.querySelectorAll("main section[id]");
+  const navLinks = document.querySelectorAll(".main-nav a");
+
+  function onScroll(){
+    header.classList.toggle("scrolled", window.scrollY > 12);
+
+    let currentId = "";
+    sections.forEach(function(sec){
+      const rect = sec.getBoundingClientRect();
+      if (rect.top <= 120 && rect.bottom >= 120) currentId = sec.id;
+    });
+    navLinks.forEach(function(a){
+      a.classList.toggle("active", a.getAttribute("href") === "#" + currentId);
+    });
+
+    const waFloat = document.getElementById("waFloat");
+    if (waFloat) waFloat.classList.toggle("visible", window.scrollY > 480);
+  }
+  window.addEventListener("scroll", onScroll, { passive: true });
+  onScroll();
+
+  /* ==========================================================
+     FAQ ACCORDION
+     ========================================================== */
+  document.querySelectorAll(".faq-item").forEach(function(item){
+    const btn = item.querySelector(".faq-q");
+    const answer = item.querySelector(".faq-a");
+    btn.addEventListener("click", function(){
+      const isOpen = item.classList.contains("open");
+
+      document.querySelectorAll(".faq-item.open").forEach(function(openItem){
+        if (openItem !== item){
+          openItem.classList.remove("open");
+          openItem.querySelector(".faq-q").setAttribute("aria-expanded", "false");
+          openItem.querySelector(".faq-a").style.maxHeight = null;
+        }
+      });
+
+      item.classList.toggle("open", !isOpen);
+      btn.setAttribute("aria-expanded", (!isOpen).toString());
+      answer.style.maxHeight = !isOpen ? answer.scrollHeight + "px" : null;
+    });
+  });
+
+  /* ==========================================================
+     REVEAL ON SCROLL
+     ========================================================== */
+  const reveals = document.querySelectorAll(".reveal");
+  if ("IntersectionObserver" in window && reveals.length){
+    const io = new IntersectionObserver(function(entries){
+      entries.forEach(function(entry){
+        if (entry.isIntersecting){
+          entry.target.classList.add("in");
+          io.unobserve(entry.target);
+        }
+      });
+    }, { threshold: 0.15 });
+    reveals.forEach(function(el){ io.observe(el); });
+  } else {
+    reveals.forEach(function(el){ el.classList.add("in"); });
+  }
+
+  const yearEl = document.getElementById("year");
+  if (yearEl) yearEl.textContent = new Date().getFullYear();
+
+})();
+</script>
+
+</body>
+</html>
